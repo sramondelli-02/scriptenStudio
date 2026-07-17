@@ -18,16 +18,12 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!--================ LOADER ================-->
-
-    <div class="loader">
-        <div class="spinner"></div>
-    </div>
+   
 
     <!--================ HEADER ================-->
 
@@ -108,7 +104,7 @@
 
             <div class="hero-image">
 
-                <img src="img/hero.png" alt="Desarrollo Web">
+                <img src="Logo-png.png" alt="Desarrollo Web">
 
             </div>
 
@@ -315,23 +311,51 @@
 
             </div>
 
-            <div class="projects">
+           <div class="projects">
 
-                <div class="project">
-                    <img src="img/proyecto1.jpg" alt="">
-                </div>
-
-                <div class="project">
-                    <img src="img/proyecto2.jpg" alt="">
-                </div>
-
-                <div class="project">
-                    <img src="img/proyecto3.jpg" alt="">
-                </div>
-
-            </div>
-
+    <!-- Proyecto 1: Sabor y Carbón -->
+    <div class="project">
+        <div class="project-img">
+            <img src="sabor.png" alt="Landing page Sabor y Carbón">
         </div>
+        <div class="project-content">
+            <h3>Sabor y Carbón</h3>
+            <p>Landing page moderna y atractiva para restaurante. Diseñada para resaltar el menú y captar clientes potenciales de manera efectiva.</p>
+            <a href="https://sabor-y-carbon.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                Ver proyecto <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Proyecto 2: García & Asoc. -->
+    <div class="project">
+        <div class="project-img">
+            <img src="abogados.png" alt="García y Asociados Abogados">
+        </div>
+        <div class="project-content">
+            <h3>García & Asoc.</h3>
+            <p>Sitio web corporativo y profesional para una firma de abogados. Transmite confianza, autoridad y facilita el contacto directo.</p>
+            <a href="https://garcia-y-asociados-abogados.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                Ver proyecto <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Proyecto 3: Money Manager -->
+    <div class="project">
+        <div class="project-img">
+            <img src="gastos.png" alt="Money Manager App">
+        </div>
+        <div class="project-content">
+            <h3>Money Manager</h3>
+            <p>Aplicación web tipo PWA para llevar el control y registro de ingresos y gastos personales. Interfaz intuitiva, rápida y funcional.</p>
+            <a href="https://inspiring-crepe-8d2d16.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                Ver proyecto <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+    </div>
+
+</div>
 
     </section>
 
@@ -345,28 +369,39 @@
 
                 <span>Contacto</span>
 
-                <h2>¿Listo para comenzar tu proyecto?</h2>
+                <h2>¡Hablemos de tu próximo proyecto!</h2>
 
             </div>
 
-            <form>
+            <!-- Contenedor de canales de contacto directo -->
+            <div class="contact-channels">
 
-                <input type="text" placeholder="Nombre">
+                <!-- Botón de Instagram -->
+                <!-- Reemplaza el '#' por el enlace de tu perfil (ej: https://instagram.com/tu_usuario) -->
+                <a href="https://www.instagram.com/scriptenstudio?igsh=MThlandhYnYwYXVnbg==" class="contact-btn instagram" target="_blank" rel="noopener noreferrer">
+                    <i class="ri-instagram-line"></i>
+                    <span>Instagram</span>
+                </a>
 
-                <input type="email" placeholder="Correo">
+                <!-- Botón de TikTok -->
+                <!-- Reemplaza el '#' por el enlace de tu perfil (ej: https://tiktok.com/@tu_usuario) -->
+                <a href="https://vt.tiktok.com/ZSXPwYLmh/" class="contact-btn tiktok" target="_blank" rel="noopener noreferrer">
+                    <i class="ri-tiktok-line"></i>
+                    <span>TikTok</span>
+                </a>
 
-                <textarea placeholder="Contanos sobre tu proyecto"></textarea>
+                <!-- Botón de Gmail -->
+                <!-- Reemplaza el '#' por 'mailto:tu_correo@gmail.com' para que abra directamente el gestor de correos -->
+                <a href="mailto:scriptenstudio@gmail.com" class="contact-btn gmail">
+                    <i class="ri-mail-line"></i>
+                    <span>Gmail</span>
+                </a>
 
-                <button class="btn">
-                    Enviar Mensaje
-                </button>
-
-            </form>
+            </div>
 
         </div>
 
     </section>
-
     <!--================ FOOTER ================-->
 
     <footer>
@@ -402,5 +437,8 @@
     <script src="js/script.js"></script>
 
 </body>
+
+
+<script src="script.js"></script>
 
 </html>
